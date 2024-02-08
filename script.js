@@ -7,4 +7,6 @@ function daysOfAYear(year) {
   }
 }
 const input = parseInt(prompt("Enter year"));
-daysOfAYear(input);
+const res = daysOfAYear(input);
+alert(`${res} days`);
+
